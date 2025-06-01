@@ -88,20 +88,8 @@ CALL InsertarIngredienteEnReceta(
 2. **Ejecuta la creación de la base de datos** (MySQL 8 recomendado):
 
    ```bash
-   mysql -u usuario -p < sql/01_crear_base_de_datos.sql
+   mysql -u usuario -p < sql/Script.sql
    ```
-3. **Carga datos de referencia** (categorías, tipos, unidades, ejemplos):
-
-   ```bash
-   mysql -u usuario -p FatLessDB < sql/02_datos_iniciales.sql
-   ```
-4. **(Opcional) Pobla con el dataset completo de recetas**:
-
-   ```bash
-   mysql -u usuario -p FatLessDB < sql/03_recetas_completas.sql
-   ```
-
-¡Listo! Ahora puedes consultar tablas o vistas como `v_recetas_completas`.
 
 ---
 
