@@ -87,7 +87,6 @@ CREATE TABLE IF NOT EXISTS receta_ingredientes (
          • tipo_id = 3 => "Principal"
 *******************************************************************************/
 
-/* Insertar la categoría "Setas" */
 INSERT INTO categorias (nombre)
 VALUES 
   ('Setas'),
@@ -102,12 +101,8 @@ VALUES
   ('Frutas'),
   ('Quesos');
 
-
-/* Insertar los tipos más comunes para estas recetas */
 INSERT INTO tipos (nombre)
 VALUES ('Acompañamiento'), ('Entrante'), ('Principal');
-
-
 
 /*******************************************************************************
   4) INSERCIÓN DE RECETAS
