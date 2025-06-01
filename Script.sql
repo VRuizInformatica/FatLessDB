@@ -138,7 +138,7 @@ INSERT INTO recetas (
   tipo_id
 ) VALUES
 
--- SETAS
+-- (SETAS categoria_id=1, tipo_id=3 = Principal)
   ('Setas Salteadas con Ajo y Perejil',
    'Setas salteadas con ajo fresco y perejil, perfectas como acompañamiento',
    90, 3, 2, 5, 4,
